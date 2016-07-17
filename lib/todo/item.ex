@@ -3,7 +3,7 @@ defmodule Todo.Item do
 
   schema "items" do
     field :title, :string
-    field :completed, :boolean
+    field :completed, :boolean, default: false
     timestamps
   end
 end
