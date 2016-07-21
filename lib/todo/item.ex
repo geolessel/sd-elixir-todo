@@ -5,6 +5,7 @@ defmodule Todo.Item do
   schema "items" do
     field :title, :string
     field :completed, :boolean, default: false
+    field :estimated_minutes, :integer
     belongs_to :user, Todo.User
     many_to_many :tags, Todo.Tag, join_through: "items_tags"
     timestamps
