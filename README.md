@@ -1,24 +1,19 @@
 # Todo
 
-**TODO: Add description**
+This application is a demo application that demonstrates using Ecto
+with Elixir outside of Phoenix. This is the code that I wrote while
+preparing for my talk at the San Diego Elixir Meetup on July 21, 2016.
 
-## Installation
+The majority of this was then live-coded. Just looking at the code will
+not give you the whole feel of the talk nor the meat of what we did
+in that session.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+If you are cloning this for the sake of following along, note that there
+will very likely be changes/differences between what is in this repo and
+the final form of the live-coded application.
 
-  1. Add `todo` to your list of dependencies in `mix.exs`:
+I've tried to make each commit comment provide details as to what
+we then did with the changes in that commit. Again, I've likely missed
+some things as they are taken from my notes I used during the presentation.
 
-    ```elixir
-    def deps do
-      [{:todo, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `todo` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:todo]]
-    end
-    ```
-
+If you see anything wrong, please let me know. Thanks!
